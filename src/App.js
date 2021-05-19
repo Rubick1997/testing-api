@@ -12,7 +12,6 @@ function App() {
       );
       setJoke(data);
       setIsLoading(false);
-      console.log(joke)
     };
     fetchJoke();
   }, []);
